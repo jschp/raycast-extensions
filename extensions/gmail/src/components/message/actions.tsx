@@ -40,7 +40,7 @@ export function MessageMarkAsArchived(props: { message: gmail_v1.Schema$Message;
     <Action
       title="Archive"
       icon={Icon.Box}
-      shortcut={{ modifiers: ["cmd", "opt"], key: "a" }}
+      shortcut={{ modifiers: ["cmd", "shift"], key: "e" }}
       onAction={() =>
         toastifiedPromiseCall({
           onCall: async () => {
